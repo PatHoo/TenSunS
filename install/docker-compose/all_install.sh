@@ -78,7 +78,7 @@ services:
     hostname: nginx-consul
     restart: always
     ports:
-      - "1026:1026"
+      - "31026:1026"
     volumes:
       - /usr/share/zoneinfo/PRC:/etc/localtime
     depends_on:
