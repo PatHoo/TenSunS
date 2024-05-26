@@ -111,7 +111,6 @@ spec:
         storageClassName: csi-disk
         volumeMode: Filesystem
   serviceName: consul
-
 ---
 apiVersion: v1
 kind: Service
