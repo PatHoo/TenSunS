@@ -46,7 +46,7 @@ services:
     hostname: consul
     restart: always
     ports:
-      - "38500:8500"
+      - "8500:8500"
     volumes:
      - $tsspath/consul/data:/consul/data
      - $tsspath/consul/config:/consul/config
